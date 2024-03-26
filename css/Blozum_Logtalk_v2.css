@@ -5,12 +5,12 @@
 
 .blozum_button-35,
 .blozum_button-35:hover {
-    color: #0c29d0;
+    color: #e63411;
 }
 
 .blozum_button-35:hover,
 .blozum_chatbox_button button:hover {
-    box-shadow: #364ef7 0 0 0 3px, transparent 0 0 0 0;
+    box-shadow: #ff4925 0 0 0 3px, transparent 0 0 0 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -176,8 +176,8 @@
 
 .send__button_BLZ {
     border-radius: 50%;
-    background-color: #364ef7;
-    color: #364ef7;
+    background-color: #ff4925;
+    color: #ff4925;
     width: calc(3em + 2px);
     height: calc(3em + 2px);
     display: flex;
@@ -211,7 +211,7 @@
 .blozum_button-3 {
     align-items: center;
     border-radius: 15px;
-    background: #364ef7;
+    background: #ff4925;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
     width: 100%;
     color: #fff;
@@ -236,7 +236,7 @@
 
 * {
     padding: 0;
-    --secondaryGradient: linear-gradient(180deg, #0c28d0 0%, #364ef7 100%);
+    --secondaryGradient: linear-gradient(180deg, #e63411 0%, #ff4925 100%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.18);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -384,8 +384,8 @@
     margin-left: auto;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 16px;
-    background: -webkit-linear-gradient(180deg, #0c28d0 0%, #364ef7 100%);
-    background: linear-gradient(180deg, #0c28d0 0%, #364ef7 100%);
+    background: -webkit-linear-gradient(180deg, #e63411 0%, #ff4925 100%);
+    background: linear-gradient(180deg, #e63411 0%, #ff4925 100%);
     color: #fff;
 }
 
@@ -410,7 +410,7 @@
     border-radius: 30px;
     text-align: left;
     color: #000;
-    border-color: #0c28d0;
+    border-color: #e63411;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -428,7 +428,7 @@
 }
 
 .blozum_chatbox_button button:hover {
-    background-color: #364ef7;
+    background-color: #ff4925;
     color: #fff;
 }
 
@@ -554,7 +554,7 @@
 .blz_s {
     width: 10px;
     height: 10px;
-    background-color: #364ef7;
+    background-color: #ff4925;
     opacity: 0.8;
     display: inline-block;
     margin: 1px;
@@ -594,7 +594,7 @@
 
 .home_button_BLZ {
     border-radius: 50%;
-    background-color: #364ef7;
+    background-color: #ff4925;
     color: #fff;
     width: calc(3em + 2px);
     height: calc(3em + 2px);
@@ -691,10 +691,10 @@ input {
 /* Highlight the active (enabled) button */
 .blz_active,
 .blz_active:focus {
-    background-color: #364ef7;
+    background-color: #ff4925;
     /* Blue background for active state */
     color: white;
-    border-color: #364ef7;
+    border-color: #ff4925;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-width: thin;
     outline: none;
@@ -702,7 +702,7 @@ input {
 
 .blozum_thumb-down:hover,
 .blozum_thumb-up:hover {
-    background-color: #364ef7;
+    background-color: #ff4925;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
@@ -768,7 +768,7 @@ input {
 
 .action-btn {
     border: none;
-    color: #364ef7;
+    color: #ff4925;
     /* padding: 0.4rem 0.8rem; */
     border-radius: 0.3rem;
     outline: none;
@@ -791,7 +791,7 @@ input {
 } */
 
 .action-btn:hover {
-    background-color: #364ef7;
+    background-color: #ff4925;
     color: white;
     transition: all 0.3s ease-in-out;
     outline: none;
@@ -822,7 +822,7 @@ input {
 
 .stoodi_links {
     all: unset;
-    color: #364ef7;
+    color: #ff4925;
     font-weight: bold;
     cursor: pointer;
 }
@@ -872,7 +872,7 @@ input {
 .blz_icebreaker {
     background: #ebf1ff;
     padding: 10px;
-    color: #0c28d0;
+    color: #e63411;
     margin: 3px;
     font-size: 12px;
     line-height: 15px;
@@ -891,7 +891,7 @@ input {
 .blz_init_icebreaker {
     background: #ebf1ff;
     padding: 10px;
-    color: #0c28d0;
+    color: #e63411;
     margin: 5px;
     font-size: 14px;
     line-height: 18px;
