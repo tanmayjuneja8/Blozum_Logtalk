@@ -5,12 +5,12 @@
 
 .blozum_button-35,
 .blozum_button-35:hover {
-    color: #fff;
+    color: #0c29d0;
 }
 
 .blozum_button-35:hover,
 .blozum_chatbox_button button:hover {
-    box-shadow: #063ac3 0 0 0 3px, transparent 0 0 0 0;
+    box-shadow: #364ef7 0 0 0 3px, transparent 0 0 0 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -32,11 +32,13 @@
         bottom: 35px;
     }
 }
+
 @media screen and (max-height: 810px) and (min-width: 1024px) {
     .blozum_container {
         bottom: 40px;
     }
 }
+
 @media only screen and (min-width: 901px) and (max-width: 1023px) {
     .blozum_chatbox {
         width: 100%;
@@ -115,11 +117,6 @@
     font-family: "Georama", Sans-serif;
 }
 
-.blozum_button-35,
-.blozum_button-35:hover {
-    background-color: #fff;
-}
-
 .blozum_container {
     display: flex;
     z-index: 999;
@@ -179,8 +176,8 @@
 
 .send__button_BLZ {
     border-radius: 50%;
-    background-color: #063ac3;
-    color: #063ac3;
+    background-color: #364ef7;
+    color: #364ef7;
     width: calc(3em + 2px);
     height: calc(3em + 2px);
     display: flex;
@@ -202,22 +199,22 @@
 }
 
 .send__button_BLZ:hover {
-    background-color: rgba(6, 58, 195, 0.9);
+    background-color: #0b134a;
     box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.4) 0 3px 9px;
 }
 
 .send__button_BLZ:active {
-    background-color: rgba(6, 58, 195, 0.9);
+    background-color: #0b134a;
     box-shadow: #ccc 0 0 0 3px, transparent 0 0 0 0;
 }
 
 .blozum_button-3 {
     align-items: center;
     border-radius: 15px;
-    background: #e1edff;
+    background: #364ef7;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
     width: 100%;
-    color: #063ac3;
+    color: #fff;
     flex: 1 1 auto;
     justify-content: center;
     box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.2) 0 3px 5px;
@@ -239,8 +236,8 @@
 
 * {
     padding: 0;
-    --secondaryGradient: linear-gradient(180deg, #1f5cd5 0%, #063ac3 100%);
-    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryGradient: linear-gradient(180deg, #0c28d0 0%, #364ef7 100%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.18);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -260,6 +257,10 @@
     width: 100%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px 20px 0;
+}
+
+.blozum_mobile_view_close_btn {
+    display: none;
 }
 
 .blozum_chatbox--active {
@@ -350,7 +351,8 @@
 }
 
 .blozum_chatbox__heading--header {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #fff;
 }
 
@@ -382,8 +384,8 @@
     margin-left: auto;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 16px;
-    background: -webkit-linear-gradient(180deg, #1f5cd5 0%, #063ac3 100%);
-    background: linear-gradient(180deg, #1f5cd5 0%, #063ac3 100%);
+    background: -webkit-linear-gradient(180deg, #0c28d0 0%, #364ef7 100%);
+    background: linear-gradient(180deg, #0c28d0 0%, #364ef7 100%);
     color: #fff;
 }
 
@@ -408,6 +410,8 @@
     border-radius: 30px;
     text-align: left;
     color: #000;
+    border-color: #0c28d0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .blozum_chatbox__send--footer {
@@ -418,13 +422,13 @@
     padding: 5px;
     background: #fff;
     border-radius: 50px 0 50px 50px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     outline: none;
 }
 
 .blozum_chatbox_button button:hover {
-    background-color: #063ac3;
+    background-color: #364ef7;
     color: #fff;
 }
 
@@ -435,9 +439,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 8px;
-    font-size: var(--font-size);
-    line-height: var(--font-size);
+    font-size: 11px;
+    line-height: 10px;
     zoom: 1.5;
 }
 
@@ -455,7 +458,7 @@
 .blozum .link div:first-child {
     display: flex;
     overflow: hidden;
-    text-shadow: 0 8px 0 var(--text);
+    text-shadow: 0 10px 0 var(--text);
 }
 
 .blozum .link div:last-child {
@@ -551,26 +554,26 @@
 .blz_s {
     width: 10px;
     height: 10px;
-    background-color: #063ac3;
+    background-color: #364ef7;
     opacity: 0.8;
     display: inline-block;
     margin: 1px;
     border-radius: 50%;
 
     &:nth-child(1) {
-        animation: bounce 1s infinite;
+        animation: blz_bounce 1s infinite;
     }
 
     &:nth-child(2) {
-        animation: bounce 1s infinite 0.2s;
+        animation: blz_bounce 1s infinite 0.2s;
     }
 
     &:nth-child(3) {
-        animation: bounce 1s infinite 0.4s;
+        animation: blz_bounce 1s infinite 0.4s;
     }
 }
 
-@keyframes bounce {
+@keyframes blz_bounce {
     0% {
         transform: translateY(0px);
     }
@@ -591,7 +594,7 @@
 
 .home_button_BLZ {
     border-radius: 50%;
-    background-color: #063ac3;
+    background-color: #364ef7;
     color: #fff;
     width: calc(3em + 2px);
     height: calc(3em + 2px);
@@ -688,10 +691,10 @@ input {
 /* Highlight the active (enabled) button */
 .blz_active,
 .blz_active:focus {
-    background-color: #063ac3;
+    background-color: #364ef7;
     /* Blue background for active state */
     color: white;
-    border-color: #063ac3;
+    border-color: #364ef7;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-width: thin;
     outline: none;
@@ -699,7 +702,7 @@ input {
 
 .blozum_thumb-down:hover,
 .blozum_thumb-up:hover {
-    background-color: #063ac3;
+    background-color: #364ef7;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
@@ -713,7 +716,7 @@ input {
 #blz_form_error {
     background-color: #ffcccc;
     /* Light red background */
-    color: #cc0000;
+    color: #0b134a;
     /* Darker red for the text */
     border-radius: 8px;
     /* Curved edges */
@@ -765,7 +768,7 @@ input {
 
 .action-btn {
     border: none;
-    color: #063ac3;
+    color: #364ef7;
     /* padding: 0.4rem 0.8rem; */
     border-radius: 0.3rem;
     outline: none;
@@ -788,7 +791,7 @@ input {
 } */
 
 .action-btn:hover {
-    background-color: #063ac3;
+    background-color: #364ef7;
     color: white;
     transition: all 0.3s ease-in-out;
     outline: none;
@@ -819,7 +822,7 @@ input {
 
 .stoodi_links {
     all: unset;
-    color: #063ac3;
+    color: #364ef7;
     font-weight: bold;
     cursor: pointer;
 }
@@ -831,13 +834,13 @@ input {
 }
 
 .buynow:hover {
-    background-color: #063ac3;
+    background-color: #e61111;
     color: "white";
     outline: none;
 }
 
 .buynow:active {
-    background-color: #063ac3;
+    background-color: #e61111;
     color: "white";
     outline: none;
 }
@@ -852,4 +855,149 @@ input {
 
 .blozum_button-3:active {
     transform: scale(0.9);
+}
+
+.blz_icebreakers_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    animation-name: blz_ice_animation;
+    animation-duration: 520ms;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    animation-delay: 80ms;
+    animation-fill-mode: both;
+    justify-content: flex-end;
+}
+
+.blz_icebreaker {
+    background: #ebf1ff;
+    padding: 10px;
+    color: #0c28d0;
+    margin: 3px;
+    font-size: 12px;
+    line-height: 15px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 24px;
+}
+
+.blz_icebreaker:hover {
+    cursor: pointer;
+    background: #0f29d3;
+    color: #f2f2f2;
+}
+
+.blz_init_icebreaker {
+    background: #ebf1ff;
+    padding: 10px;
+    color: #0c28d0;
+    margin: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 24px;
+}
+
+.blz_init_icebreaker:hover {
+    cursor: pointer;
+    background: #0f29d3;
+    color: #f2f2f2;
+}
+
+.blz_init_icebreaker .icebreaker_element_icon {
+    position: absolute;
+    margin-top: auto;
+    align-self: flex-start;
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.blz_init_icebreaker:hover .icebreaker_element_icon {
+    cursor: pointer;
+    background: #f2f2f2;
+}
+
+@keyframes blz_ice_animation {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .blozum_chatbox__support {
+        position: fixed;
+        /* Make sure it's positioned relative to the viewport */
+        top: 0;
+        left: 0;
+        width: 100vw;
+        /* 100% of the viewport width */
+        height: 100vh;
+        /* 100% of the viewport height */
+        z-index: 9999;
+        /* Ensure it's on top of other content */
+        border-radius: 0;
+    }
+
+    .blozum_chatbox--active {
+        transform: translateY(0px);
+        z-index: 9999;
+        opacity: 1;
+    }
+
+    .blozum_container {
+        width: 100vw;
+        /* Adjust container as well to ensure it fills the screen */
+        height: 100vh;
+        /* Adjust container height to fill the screen */
+    }
+
+    .blozum_button-35 {
+        z-index: 0;
+    }
+
+    .blozum_chatbox__header {
+        position: sticky;
+        top: 0;
+        height: 20%;
+        color: white;
+        max-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .blozum_mobile_view_close_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .blozum_chatbox__button {
+        z-index: 100;
+    }
+
+    .blozum_chatbox__footer {
+        border-radius: 20px;
+    }
+
+    .blozum {
+        justify-content: center;
+    }
 }
