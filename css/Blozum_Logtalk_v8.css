@@ -291,7 +291,7 @@
 .blozum_chatbox__messages {
     margin-top: auto;
     display: flex;
-    overflow-y: scroll;
+    overflow-y: auto;
     flex-direction: column-reverse;
 }
 
