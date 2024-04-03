@@ -18,3 +18,4 @@ Please make sure to update tests as appropriate.
 # Blozum_XOL
 # Blozum_Cogna
 # Blozum_Logtalk
+# BLZ_Mundo_Logistica
